@@ -1,0 +1,297 @@
+/*banner*/
+.ban {
+	width: 100%;
+	min-width: 1000px;
+	height:902px;
+	padding-top: 140px;
+	background: url(../images/ban.jpg) no-repeat center top;
+	box-sizing: border-box;
+}
+.ban_wrap {
+	height: 100%;
+	position: relative;
+}
+.ban h1 {
+	height: 490px;
+	background: url(../images/bant.png) no-repeat center top;
+}
+.ban .deer {
+	position: absolute;
+	right: -66px;
+    bottom: -5px;
+	width: 464px;
+	height: 389px;
+	background: url(../images/deer.png) no-repeat center top;
+}
+.container{
+	width: 100%;
+	min-width: 1000px;
+	height: 2050px;
+	background: url(../images/section.jpg) no-repeat center top;
+}
+/*zgm1*/
+.con1 {
+	width: 1070px;
+	height: 887px;
+	background: url(../images/con1.png) no-repeat center top;
+	/* background-size: contain; */
+	margin-bottom: 38px;
+}
+.con_wrap{
+	position: relative;
+}
+
+.gift1{
+	position: absolute;
+	left: -300px;
+	top: 50px;
+	width: 171px;
+	height: 376px;
+	background: url(../images/5.png) no-repeat center top;
+	animation: float 4s linear infinite alternate;
+}
+@keyframes float{
+	0%,100%{
+		transform: translateY(-20px);
+	}
+	50%{
+		transform: translateY(20px);
+	}
+}
+ .gift2{
+	position: absolute;
+	right: -76px;
+	top: 150px;
+	width: 43px;
+	height: 140px;
+	background: url(../images/2.png) no-repeat center top;
+	animation: float 4s linear infinite alternate;
+}
+ .gift3{
+	position: absolute;
+	right: -300px;
+	top: 460px;
+	width: 171px;
+	height: 376px;
+	background: url(../images/5.png) no-repeat center top;
+	animation: float 4s linear infinite alternate;
+}
+ .gift4{
+	position: absolute;
+	left: -300px;
+	top: 1000px;
+	width: 124px;
+	height: 290px;
+	background: url(../images/1.png) no-repeat center top;
+	animation: float 4s linear infinite alternate;
+}
+ .gift5{
+	position: absolute;
+	left: -300px;
+	bottom: 37px;
+	width: 118px;
+	height: 324px;
+	background: url(../images/4.png) no-repeat center top;
+	animation: float 4s linear infinite alternate;
+}
+ .gift6{
+	position: absolute;
+	right: -300px;
+	bottom: 248px;
+	width: 98px;
+	height: 299px;
+	background: url(../images/3.png) no-repeat center top;
+	animation: float 4s linear infinite alternate;
+}
+.con1 .itemTab{
+	width: 860px;
+	height: 43px; 
+	padding-top: 52px;
+	margin: auto;
+}
+.con1 .itemTab h2{
+	float: left;
+	width: 155px;
+	font-size: 26px;
+	color: #fff;
+	margin-top: -5px;
+    padding-left: 15px;
+}
+.con1 .itemTab ul{
+	float: left;
+}
+.con1 .itemTab ul li{
+	float: left;
+	width: 200px;
+	height: 30px; 
+	border: 1px solid #fff;
+	border-radius: 10px; 
+	line-height: 30px; 
+	text-align: center;
+	font-size: 20px;
+	color: #fff; 
+	cursor: pointer;
+	margin-right: 18px;
+}
+.con1 .itemTab ul li:last-child{
+	margin-right: 0;
+}
+.con1 .itemTab ul li.active{
+	 background: #fff;
+	 color: #0082c9; 
+	}
+.con1 .itemtabBox ul{ 
+		width: 1023px;
+		margin: auto;
+	}
+.con1 .itemtabBox li{
+		width: 170px;
+		height: 100px; 
+		border:1px solid #0082c9;
+		float: left; 
+		border-radius: 10px;
+		padding: 10px; 
+		margin: 40px 15px 0 0;
+	}
+	.con1 .itemtabBox li:nth-child(5n){
+		margin-right: 0;
+	}
+.con1 .itemtabBox li.active{
+	background-color: #0082c9;
+}
+.con1 .itemtabBox li:hover{
+	background:url(../images/hover.png) no-repeat center top;
+	border:1px solid transparent;
+}
+.con1 .itemtabBox li.active h2,.con1 .itemtabBox li:hover h2 {
+	color: #fff;
+}
+.con1 .itemtabBox li.active .txt p,
+.con1 .itemtabBox li:hover .txt p{
+	color: #fff;
+}
+.con1 .itemtabBox li a{
+	display: block;
+	 width: 170px; 
+	 height: 100px;
+	}
+.con1 .itemtabBox li h2{
+	font-size: 22px; 
+	color: #0082c9;
+	width: 170px;
+	white-space: nowrap;
+	margin-top: 5px;
+	}
+.con1 .itemtabBox li .txt{
+	float: right;
+	font-size: 14px;
+	margin-top: 25px;
+	}
+.con1 .itemtabBox li .txt p{
+	/* line-height: 1.6em;  */
+	width: 170px; 
+	text-align: right; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	}
+	.con2 .coursBox{
+		position: relative;
+	}
+	.con2  .course_inner{
+		background: #fff;
+		width: 1070px;
+		border-radius: 10px;
+	}
+	.con2  .dzhui{
+		width: 1070px;
+		height: 113px;
+		position: absolute;
+		bottom: -103px;
+		left: 17px;
+		background: url(../images/dzhui.png) no-repeat center top;
+	}
+	.con2 .coursBox .title{
+	    text-align: center;
+		font-size: 30px;
+		color: #fff;
+		font-weight: bold;
+		height: 46px;
+		background: url(../images/tit2.png) no-repeat center top;
+		padding-top: 45px;
+		padding-left: 66px;
+		}
+	.con2 .category{
+		padding: 20px 0;
+		 border-bottom:1px dashed #a3c6e5;
+		  margin: 0 15px; 
+		  /* background: #fff;	 */
+		}
+	.con2 .cateLast{border-bottom: none;}
+	.zg_mcbox{
+		width: 1070px;
+		/* background: #fff; */
+		padding-bottom: 20px;
+	}
+	.con2 .category .tit{
+		font-size: 20px; 
+		width: 209px; 
+		height: 36px;
+		background: url(../images/lbie.png) no-repeat center top; 
+		font-weight:bold;
+		 text-align: center;
+		 color: #fff;
+		 padding-top: 72px;
+		  /* padding-right: 40px; 
+		  padding-top: 13px; */
+		}
+	.con2 .lbList{margin-left: 25px; width: 800px;}
+	.con2 .lbList li{
+		float: left; 
+		margin:10px 1px 0;
+		 letter-spacing: 2px; 
+		 color: #aaa; 
+		 cursor: pointer; 
+		 min-width:130px; 
+		 height: 35px;
+		  line-height: 35px; 
+		  text-align: center; 
+		  border-radius: 15px;}
+	.con2 .lbList li.on{
+		background:#0082c9; 
+		color:#fff;
+	}
+	.con2 .kcLink li{width: 225px; margin:20px 20px 0; float: left;}
+	.con2 .kcLink li .pic{width: 225px; height: 142px;}
+	.con2 .kcLink li h2.kcTit{font-size: 18px; font-weight: 1000; line-height: 2.5em; width: 225px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+	.con2 .kcLink li .olPrice{font-size: 16px; text-decoration: line-through;}
+	.con2 .kcLink li h3{font-size: 16px; font-weight: 1000; color: #ff3300;
+		 margin-top: 0px; text-decoration: none;}
+	.con2 .kcLink li h3 span.price{font-size: 26px; margin-left: 10px;}
+	.con2 .kcLink li .buy{width: 150px; height: 35px; font-size: 18px; line-height: 35px; text-align: center; color: #fff; background: #00b4ff; display: block; margin: 20px auto 0; border-radius: 10px;cursor:pointer}
+	.con2 .kcBox{display: none; border-top:1px dashed #a3c6e5;}
+	.con2 .kcBox .discountBox{width: 1045px; margin:75px auto 0; background: #fff; position: relative; box-shadow: 2px 2px 10px #d6d6d6; padding-bottom: 40px; border-radius: 20px; padding-top: 30px; position: relative;}
+	.con2 .kcBox .discountBox h4.disTit{text-align: center; background: url(../images/borderbg.png) repeat-x left center; position: absolute; width: 100%; top: -19px;}
+	.con2 .kcBox .discountBox h4 p{display: inline-block; font-size: 26px; -webkit-text-stroke:1px #fff; font-weight: bold; color: #ff3300; text-shadow:2px 2px 5px #ff6600; font-family: "方正兰亭特黑"; background: #fff;}
+	.con2 .disCon li{background: url(../images/yhbg1.png) no-repeat left top; width: 876px; height: 158px; margin: 30px auto 0;}
+	.con2 .disCon li.color0{background-image: url(../images/yhbg1.png);}
+	.con2 .disCon li.color1{background-image: url(../images/green.png);}
+	.con2 .disCon li.color2{background-image: url(../images/blue.png);}
+	.con2 .disCon li .txt{padding: 25px 0 0 20px;}
+	.con2 .disCon li .txt h2{font-size: 24px; color: #fff100; width: 530px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: normal;}
+	.con2 .disCon li .txt h3{font-size: 14px; color: #fff; font-weight: normal; margin-top: 35px; width: 530px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: normal;}
+	.con2 .disCon li .txt p{font-size: 16px; color: #ffff00; margin-top: 5px; width: 530px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: normal;}
+	.con2 .disCon li .txt p .price{text-decoration: line-through;}
+	.con2 .disCon li .qa{margin:15px 0 0 0; width:287px;}
+	.con2 .disCon li .qa h4{color: #fff; font-size: 22px; font-weight: normal; background: url(../images/icon1.png) no-repeat 96px center;}
+	.con2 .disCon li .qa h5{font-size: 33px; color: #fff100;}
+	.con2 .disCon li .qa a{width: 130px; height: 40px; display: inline-block; border-radius:10px; font-size: 16px; line-height: 40px; text-align: center; color: #009cff; font-weight: bold; margin-top: 6px;cursor:pointer}
+	.con2 .disCon li .qa .ljgm{background:#ffff00; margin-right: 10px;}
+	.con2 .disCon li .qa .zx{background: #fff;}
+	@media screen and (max-width: 1366px) {
+		.ban h1 {
+			margin-top: -58px;
+		}
+	}
+
+
