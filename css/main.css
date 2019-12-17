@@ -289,8 +289,19 @@
 	.con2 .disCon li .qa .ljgm{background:#ffff00; margin-right: 10px;}
 	.con2 .disCon li .qa .zx{background: #fff;}
 	@media screen and (max-width: 1366px) {
+		.ban{
+		    height: 650px;
+    		background-size: 100% 100%;
+		}
 		.ban h1 {
-			margin-top: -58px;
+			height: 360px;
+			margin-top: -46px;
+			background-size: 100% 100%;
+			width: 472px;
+		}
+		.ban .deer{
+			right:51px;
+    		bottom: -108px;
 		}
 	}
 
